@@ -7,6 +7,7 @@ import { github ,rishabh} from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant, zoomIn } from "../utils/motion";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 const ProjectCard = ({ project, index }) => {
   return (
@@ -20,11 +21,16 @@ const ProjectCard = ({ project, index }) => {
         className="bg-primaryOp shadow-inset hover:shadow-sdhv backdrop-blur-sm p-5 rounded-2xl sm:w-[360px] w-full h-[380px]"
       >
         <div className="relative w-full h-[230px]">
-          <img
+        <LazyLoadImage
+      alt={project.title}
+      className="w-full h-full object-cover rounded-2xl"
+      src={project.image.url} 
+       />
+          {/* <img
             src={project.image.url}
             alt="project_image"
             className="w-full h-full object-cover rounded-2xl"
-          />
+          /> */}
 
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
             <div
