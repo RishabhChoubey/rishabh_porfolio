@@ -20,7 +20,7 @@ const ServicesCard = ({ title, icon, index }) => {
         variants={fadeIn("right", "spring", 0.3 * index, 0.75)}
         className="w-full   p-[1px] rounded-[19px] "
       >
-        <div className="bg-primaryOp rounded-[20px] py-5 px-12 flex justify-evenly items-center flex-col min-h-[280px]  backdrop-blur-sm hover:shadow-sdhv  shadow-inset ease-in duration-200 hover:ease-in">
+        <div className="bg-dark_gray rounded-[20px] py-5 px-12 flex justify-evenly items-center flex-col min-h-[280px]  backdrop-blur-sm hover:shadow-feel  shadow-inset ease-in duration-200 hover:ease-in">
           <img
             src={icon}
             alt="web-development"

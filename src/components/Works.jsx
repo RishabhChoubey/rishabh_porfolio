@@ -18,7 +18,7 @@ const ProjectCard = ({ project, index }) => {
           scale: 1,
           speed: 450,
         }}
-        className="bg-primaryOp shadow-inset hover:shadow-sdhv backdrop-blur-sm p-5 rounded-2xl sm:w-[360px] w-full h-[380px]"
+        className="bg-dark_gray shadow-inset hover:shadow-feel backdrop-blur-sm p-5 rounded-2xl sm:w-[360px] w-full h-[380px]"
       >
         <div className="relative w-full h-[230px]">
         <LazyLoadImage
