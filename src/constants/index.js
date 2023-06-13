@@ -63,10 +63,10 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
+//   {
+//     name: "Redux Toolkit",
+//     icon: redux,
+//   },
   {
     name: "Tailwind CSS",
     icon: tailwind,
@@ -83,10 +83,10 @@ const technologies = [
     name: "Three JS",
     icon: threejs,
   },
-  {
-    name: "git",
-    icon: git,
-  },
+//   {
+//     name: "git",
+//     icon: git,
+//   },
   // {
   //   name: "figma",
   //   icon: figma,
@@ -107,10 +107,10 @@ const technologies = [
     name: "JavaScript",
     icon: javascript,
   },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
+//   {
+//     name: "TypeScript",
+//     icon: typescript,
+//   },
 ];
 
 const experiences = [
