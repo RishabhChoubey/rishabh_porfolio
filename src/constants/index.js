@@ -21,6 +21,7 @@ import {
   tesla,
   shopify,
   threejs,
+  walmart
 } from "../assets";
 
 export const navLinks = [
@@ -130,6 +131,7 @@ const experiences = [
   {
   title: "Data Engineer III",
   company_name: "Walmart Global Tech India",
+  icon: walmart,
   iconBg: "#F5F5F5",
   date: "Oct 2024 - Present",
   points: [
