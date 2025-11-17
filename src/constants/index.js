@@ -130,7 +130,6 @@ const experiences = [
   {
   title: "Data Engineer III",
   company_name: "Walmart Global Tech India",
-  icon: walmart,   // replace with your walmart icon variable
   iconBg: "#F5F5F5",
   date: "Oct 2024 - Present",
   points: [
