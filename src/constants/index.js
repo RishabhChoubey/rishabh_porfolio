@@ -127,6 +127,21 @@ const experiences = [
       "Built multiple pipelines for the UI team and optimized the job processing time. This resulted in improved performance and faster turnaround time for the risk alert monitoring system.",
     ],
   },
+  {
+  title: "Data Engineer III",
+  company_name: "Walmart Global Tech India",
+  icon: walmart,   // replace with your walmart icon variable
+  iconBg: "#F5F5F5",
+  date: "Oct 2024 - Present",
+  points: [
+    "Designed and maintained scalable data pipelines on GCP using Apache Spark, Dataproc, BigQuery, and Airflow to process large-scale supply chain datasets and compute Distribution Center (DC) fill rates.",
+    "Developed interactive and real-time operational dashboards using Spring Boot (backend) and React.js (frontend), enabling leadership to monitor KPIs with faster insights.",
+    "Built agentic AI chatbots using FastAPI, Chainlit, and Gemini (LLM) to assist business and engineering teams with automated Root Cause Analysis (RCA) and analytical insights.",
+    "Integrated LookML as the semantic layer to ensure consistent business logic, metric definitions, and unified context across dashboards, LLMs, and SQL-based analytics.",
+    "Created intelligent data context agents capable of interpreting SQL transformations, generating data lineage flow diagrams, and suggesting Data Quality (DQ) rules for pipelines.",
+    "Implemented automated data profiling agents that summarize dataset characteristics, detect anomalies, and speed up data discovery and validation for new pipelines."
+  ],
+}
 ];
 
 const testimonials = [
