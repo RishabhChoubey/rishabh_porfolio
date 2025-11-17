@@ -29,6 +29,7 @@ import tesla from "./company/tesla.png";
 
 import infosys from "./infosys.png";
 import rishabh from "./rishabh.png";
+import walmart from "./walmart.png";
 
 export {rishabh,
   infosys,
@@ -57,5 +58,5 @@ export {rishabh,
   shopify,
   starbucks,
   tesla,
-
+  walmart
 };
